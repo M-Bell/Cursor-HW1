@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Tester {
 
     public static void main(String[] args) {
@@ -10,16 +8,16 @@ public class Tester {
         float floatA = 10.23F, floatB = 15.212F;
         double doubleA = 10.312, doubleB = 15.1123;
         System.out.println("Byte");
-        System.out.println("a + b = " + (byte)(byteA + byteB));
-        System.out.println("a - b = " + (byte)(byteA - byteB));
-        System.out.println("a * b = " + (byte)(byteA * byteB));
-        System.out.println("a / b = " + (byte)(byteA / byteB));
+        System.out.println("a + b = " + (byte) (byteA + byteB));
+        System.out.println("a - b = " + (byte) (byteA - byteB));
+        System.out.println("a * b = " + (byte) (byteA * byteB));
+        System.out.println("a / b = " + (byte) (byteA / byteB));
 
         System.out.println("Short");
-        System.out.println("a + b = " + (short)(shortA + shortB));
-        System.out.println("a - b = " + (short)(shortA - shortB));
-        System.out.println("a * b = " + (short)(shortA * shortB));
-        System.out.println("a / b = " + (short)(shortA / shortB));
+        System.out.println("a + b = " + (short) (shortA + shortB));
+        System.out.println("a - b = " + (short) (shortA - shortB));
+        System.out.println("a * b = " + (short) (shortA * shortB));
+        System.out.println("a / b = " + (short) (shortA / shortB));
 
         System.out.println("Int");
         System.out.println("a + b = " + (intA + intB));
